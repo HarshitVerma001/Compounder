@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light m-0 p-0 ">
+  <div class="container-fluid nav-color">
+    <a class="navbar-brand fw-semibold text-light fs-4">{{title}}</a>
+
+
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link fw-medium text-light" (click)="redirectHome()">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fw-medium text-light" (click)="redirectToNew()">Add Compound</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

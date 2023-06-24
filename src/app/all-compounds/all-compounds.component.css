@@ -1,0 +1,22 @@
+.all-compounds {
+  background-color: #C2DED1;
+}
+
+mat-card {
+  width: 400px;
+  padding: 20px;
+  background-color: azure;
+  border-radius: 25px;
+  margin-left: 470px;
+}
+
+mat-card-header {
+  display: block !important;
+}
+
+.md-avatar {
+  border-radius: 50%;
+  border: 5px solid black;
+  height: 200px;
+  width: 200px;
+}

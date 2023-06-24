@@ -1,0 +1,22 @@
+<div class="all-compounds m-0 mt-5">
+  <div class="container text-center">
+    <ul class="row row-cols-2" *ngFor="let compound of Compounds 
+    | paginate: {
+        itemsPerPage: 8, 
+        currentPage: pagination,
+        totalItems: allCompounds
+    }">
+      <mat-card (click)="getDetailedCompound(compound.ID)" class="col">
+        <mat-card-header>
+          <img class="md-avatar" src={{compound.ImageSource}}>
+        </mat-card-header>
+        <div>
+          <mat-card-title>{{compound.CompoundName}}</mat-card-title>
+        </div>
+      </mat-card>
+    </ul>
+  </div>
+  <div class="centerit">
+    <pagination-controls (pageChange)="renderPage($event)"></pagination-controls>
+  </div>
+</div>

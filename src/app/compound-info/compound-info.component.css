@@ -1,0 +1,18 @@
+.info-box {
+  background-color: #ECE5C7;
+  width: 60vw;
+  margin-top: 3vw;
+  border-radius: 4%;
+}
+
+img {
+  width: 18vw;
+  height: 18vw;
+  padding: 0;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.description-box {
+  background-color: #CDC2AE;
+}

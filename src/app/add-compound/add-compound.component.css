@@ -1,0 +1,19 @@
+.add-new {
+  background-color: #ECE5C7;
+  margin-top: 3vw;
+  padding: 20px;
+  width: 40vw;
+  border-radius: 2%;
+}
+
+.centerit {
+  display: flex;
+  justify-content: center;
+}
+
+.md-avatar {
+  border-radius: 50%;
+  border: 5px solid black;
+  height: 200px !important;
+  width: 200px !important;
+}

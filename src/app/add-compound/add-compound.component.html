@@ -1,0 +1,14 @@
+<div class="add-new container">
+  <h1 class="text-center">Add compound</h1>
+  <form #compoundData="ngForm" (ngSubmit)="addCompound(compoundData.value)" class="row justify-content-center">
+    <input ngModel type="text" class="form-input row col-7 mb-2 rounded text-center" name="CompoundName"
+      placeholder="Enter the compound name">
+    <input ngModel type="text" class="col-7 mb-2 rounded text-center" name="CompoundDescription"
+      placeholder="Enter the compound description">
+    <input ngModel type="url" class="col-7 mb-2 rounded text-center" name="ImageSource"
+      placeholder="Enter the image url">
+    <input ngModel type="text" class="col-7 mb-2 rounded text-center" name="ImageAttribution"
+      placeholder="Enter the attribution">
+    <button class="col-sm-6 rounded-pill bg-success bg-gradient">ADD</button>
+  </form>
+</div>
